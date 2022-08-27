@@ -8,40 +8,50 @@
     <script src="script.js" defer></script>
     <title>TIC-TAC-TOE GAME - NG</title>
 
-    <!--== Styles ==-->
+    <!--== Styles Lnk ==-->
     <link rel="stylesheet" href="styles.css">
+    
     <link rel="shortcut icon" href="Bluebird Tech Logo.png" type="image/x-icon">
+    
+    <!-- ASOS Lnk -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
 </head>
 <body>
     <!--== Script ==-->
     <script src="script.js" defer></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 300,
+        });
+    </script>
 
     <section class="history" id="gameInfo">
 
         <div class="history-container">
             <div class="history-header">
-                <h1><a href="#gameFooter">WELCOME TO CERTIFIED DEV.'S TIC-TAC-TOE GAME - NG ! !</a></h1>
+                <h1><a href="#gameFooter" data-aos="fade-up">WELCOME TO CERTIFIED DEV.'S TIC-TAC-TOE GAME - NG ! !</a></h1>
             </div>
             <div class="history-body">
-                <h2><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi569-SkOf5AhUPYPEDHdL_CQ0QFnoECAsQAw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTic-tac-toe%23%3A~%3Atext%3Dleast%2520three%2520points.-%2CHistory%2Caround%2520the%2520first%2520century%2520BC.&usg=AOvVaw0znBmbqzzObD7Sz_aW7uQv">History About The TIC-TAC-TOE GAME - NG</a></h2>
-                <p>
+                <h2><a data-aos="fade-up" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi569-SkOf5AhUPYPEDHdL_CQ0QFnoECAsQAw&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTic-tac-toe%23%3A~%3Atext%3Dleast%2520three%2520points.-%2CHistory%2Caround%2520the%2520first%2520century%2520BC.&usg=AOvVaw0znBmbqzzObD7Sz_aW7uQv">History About The TIC-TAC-TOE GAME - NG</a></h2>
+                <p data-aos="fade-down">
                 Games played on three-in-a-row boards can be traced back to ancient Egypt, where such game boards have been
                 found on roofing tiles dating from around 1300 BC. An early variation of tic-tac-toe was played in the Roman Empire,
                 around the first century BC.
                 </p>
                     <ul>  
-                        <li>Genres: Paper-and-pencil game</li>
-                        <li>Other names: Noughts and Crosses; X's and O's
-                        <li>Setup time: Minimal</li>
-                        <li>Skills required: Strategy, tactics, observation</li>
+                        <li data-aos="fade-right">Genres: Paper-and-pencil game</li>
+                        <li data-aos="fade-left">Other names: Noughts and Crosses; X's and O's
+                        <li data-aos="fade-right">Setup time: Minimal</li>
+                        <li data-aos="fade-left">Skills required: Strategy, tactics, observation</li>
                     </ul>
-                <h3>Version 9</h3>            
-                <p>
+                <h3 data-aos="fade-up">Version 9</h3>            
+                <p data-aos="fade-down">
                     This is the Latest version of the game. Now Played Online and Fully Functional.
                 </p>
-                <h3><a href="#gameBoard"> HOW TO PLAY The TIC-TAC-TOE GAME - NG</a></h3>
-                <p>
+                <h3><a data-aos="fade-up" href="#gameBoard"> HOW TO PLAY The TIC-TAC-TOE GAME - NG</a></h3>
+                <p data-aos="fade-down">
                     The game is played on a grid that's 3 squares by 3 squares.
                     You are X, your friend is O. Players take turns putting their marks in empty squares.
                     The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
@@ -55,7 +65,7 @@
     
     <section id="gameBoard">
         <div class="gameBoard-header">
-            <h1>GAME BOARD The TIC-TAC-TOE GAME - NG</h1>
+            <h1 data-aos="fade-down">GAME BOARD The TIC-TAC-TOE GAME - NG</h1>
         </div>
     <div class="board" id="board">
 
