@@ -8,6 +8,26 @@
     --mark-size: calc(var(--cell-size) * .9);
 }
 
+*::-webkit-scrollbar {
+    width: .4rem;
+    height: 1rem;
+}
+
+*::-webkit-scrollbar:hover {
+    width: 1rem;
+    transition: all 5s linear !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: none;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
+    width: 1rem;
+    height: 9rem;
+}
+
 body {
     margin: 0;
     padding: 0;
