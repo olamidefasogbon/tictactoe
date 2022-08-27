@@ -23,7 +23,6 @@
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background: var(--blue);
     width: 1rem;
     height: 9rem;
 }
