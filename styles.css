@@ -10,6 +10,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #6699CC;
     font-family: 'Slabo 27px', serif;
 }
@@ -21,6 +22,7 @@ hr {
     height: 1px;
     border: solid 1px blueviolet;
     margin: 0;
+    padding: 0;
     cursor: not-allowed;
 }
 
